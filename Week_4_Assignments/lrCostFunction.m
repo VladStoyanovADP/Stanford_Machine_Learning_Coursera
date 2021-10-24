@@ -1,4 +1,4 @@
-% Computes the cost and gradient for (unregularized) logistic regression
+% Computes the cost and gradient for regularized logistic regression
 
 function [J, grad] = lrCostFunction(theta, X, y, lambda)
 
