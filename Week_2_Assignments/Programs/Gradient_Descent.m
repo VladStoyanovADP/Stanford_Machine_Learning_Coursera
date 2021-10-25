@@ -20,3 +20,12 @@ for iter = 1:num_iters
 end
 
 end
+
+
+%% Plotting the convergence graph to make sure the algorithm is descending. By not plotting it, there's minimal navigation regarding how to set the alpha parameter.
+
+% plot(1:num_iters, J_history, '-b', 'LineWidth', 2);
+% xlabel('Number of iterations');
+% ylabel('Cost J');
+
+%%
