@@ -52,4 +52,4 @@ Option 2: One can't conclude what correct is, because it is subjective when usin
 
 Option 3: This is the correct answer, because following the logic in Option 1, the more clusters you have the lower the cost you will have. So the only thing that could've prevented the cost function returning a lower cost when using 5 clusters, than using 3, is getting stuck in a local optima. Correct.
 
-Option 4: This, is subjective answer and following it's own logic, is correct, because running the algorithm with 3 clusters will eventually give a higher cost than the run with 5 clusters. Although given the information in the question, one would have a different conclusion, taking the big picture in perspective. Incorrect.
+Option 4: This, is subjective answer and following it's own logic, is correct, because running the algorithm with 3 clusters will eventually give a higher cost than the run with 5 clusters. Although given the information in the question, one would reach a different conclusion, taking the big picture in perspective. Incorrect.
