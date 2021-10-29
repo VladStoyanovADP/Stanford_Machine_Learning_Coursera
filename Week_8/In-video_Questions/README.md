@@ -20,7 +20,13 @@ Option 4: c(2) = 3, so following the logic from Option 1, we conclude that k = 3
 
 ![Optimization_Objective](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Optimization_Objective.png)
 
+Option 1: There's no learning rate parameter when using the K-Means algorithm. Incorrect.
 
+Option 2: The algorithm should return a lower cost on each iteration. Let's consider the cost function (a.k.a distortion cost function) for K-Means algorithm to prove this: Denoting m to be the number of samples, mu to be the cluster centroid, c to be the cluster, then vectorizing the cost function, we can prove that: 1/m * sum( x - mu ).^2 will be lower on each iteration, due to cluster assignment and move centroid steps of the K-Means algorithm, optimizing the norm of the samples and the nearest cluster centroid until converge to a local or global optima. Hence, this option is incorrect. The only thing that could go wrong is converging to a local optima, which would skew the output results, but not increase the cost function.
+
+Option 3: The number of clusters does not have an impact on the cost function. The only thing that could be slighly odd, is if one would specify more clusters than examples, but again, that has no impact on the cost function, because the cost function is measuring the squared distance between the samples and the nearest cluster centroids. At convergence after n times of running K-Means algorithm, no sample will have to measure it's distance to the "lonely" cluster centroids, because there's a cluster centroid that's closer to them.
+
+Option 4: Following the logic of Option 2, this must be the correct answer.
 
 ![Random_Initilization](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Random_Initilization.png)
 
