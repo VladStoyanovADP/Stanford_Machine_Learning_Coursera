@@ -30,4 +30,14 @@ Option 4: Following the logic of Option 2, this must be the correct answer.
 
 ![Random_Initilization](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Random_Initilization.png)
 
+Option 1: If one executes what has been described in this option, one would get a bunch of cluster centroids stacked on top of one of the randomly picked samples. Bad idea if one wants to randomly initialize cluster centroids. Incorrect.
+
+Option 2: This is actually close to the truth, except that a better option would be to choose k distinct random integers from all the samples, instead of all the clusters.
+For example, if we have specified only 2 clusters, then executing this action, would never initialize a cluster centroid at x(i), for i > 2. Incorrect, because there's a better way.
+
+Option 3: Following the logic in Option 2, then this is the best way to randomly initialize cluster centroids. A good note is that one should do this only if K is =< 10. For a bigger input of clusters, a different strategies shall be used.
+
+Option 4: This technique is generally used for 2 things:
+1. for random initialization when initializing theta parameters before running a forward pass in a neural network. Theta parameters filled with zeros would cause calulcation errors in a neural network. The function for that can be found here: [link_to_function_random_initialize_weights](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_5_Assignments/Programs/Written_By_Me/randInitializeWeights%20(1).m)  
+
 ![Choosing_The_Number_Of_Clusters](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Choosing_The_Number_Of_Clusters.png)
