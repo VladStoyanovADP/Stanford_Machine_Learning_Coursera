@@ -16,9 +16,11 @@ Option 2: Following the logic above, then this is correct as well.
 
 Option 3: Following the logic of the answer for Option 1, we see that the cluster k that has the smallest distance between x(2) and mu(k) is 3. For x(3), it's 5. 3 != 5, so this is incorrect.
 
-
+Option 4: c(2) = 3, so following the logic from Option 1, we conclude that k = 3 minimizes the squared norm between x(2) and mu(k).
 
 ![Optimization_Objective](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Optimization_Objective.png)
+
+
 
 ![Random_Initilization](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Random_Initilization.png)
 
