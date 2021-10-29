@@ -45,3 +45,11 @@ Option 4: This technique is generally used for 2 things:
 Having this said, one should rather stick to using the epsilon technique for neural networks, because there is not a single reason why this would be more effective than Option 3 here. Incorrect.
 
 ![Choosing_The_Number_Of_Clusters](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Choosing_The_Number_Of_Clusters.png)
+
+Option 1: Incorrect. One can prove this by quickly entertaining the following thought: If the developer has 5 examples and 5 cluster that are evenly distributed - so cluster 1 is for example 1, etc., then the cost would be zero, because the squared distance between x(i) and the closest cluster centroid would be zero, this giving the developer a cost of 0. On the other hand if the cluster is just 1, then some examples will be closer and some furhter away from the cluster centroid, giving the developer a cost > 0. Hence it's very possible that the cost changes as a function of the number of clusters k.
+
+Option 2: One can't conclude what correct is, because it is subjective when using unsupervised learning algorithms. Following the logic given in Option 1, one could create a situation where the cost is zero, but that wouldn't be at all practical. In other words, the developer's main goal is not always finding the parameters that minimize the cost function, unlike supervised learning. Incorrect.
+
+Option 3: This is the correct answer, because following the logic in Option 1, the more clusters you have the lower the cost you will have. So the only thing that could've prevented the cost function returning a lower cost when using 5 clusters, than using 3, is getting stuck in a local optima. Correct.
+
+Option 4: This, is subjective answer and following it's own logic, is correct, because running the algorithm with 3 clusters will eventually give a higher cost than the run with 5 clusters. Although given the information in the question, one would have a different conclusion, taking the big picture in perspective. Incorrect.
