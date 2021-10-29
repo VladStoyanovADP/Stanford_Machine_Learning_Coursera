@@ -38,6 +38,10 @@ For example, if we have specified only 2 clusters, then executing this action, w
 Option 3: Following the logic in Option 2, then this is the best way to randomly initialize cluster centroids. A good note is that one should do this only if K is =< 10. For a bigger input of clusters, a different strategies shall be used.
 
 Option 4: This technique is generally used for 2 things:
-1. for random initialization when initializing theta parameters before running a forward pass in a neural network. Theta parameters filled with zeros would cause calulcation errors in a neural network. The function for that can be found here: [link_to_function_random_initialize_weights](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_5_Assignments/Programs/Written_By_Me/randInitializeWeights%20(1).m)  
+1. for random initialization when initializing theta parameters before running a forward pass in a neural network. Theta parameters filled with zeros would cause calculation errors in a neural network. The function for that can be found here: [link_to_function_random_initialize_weights](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_5_Assignments/Programs/Written_By_Me/randInitializeWeights%20(1).m) 
+
+2. Performing gradient checking, when using a neural network algorithm. There's usually 2 methods to go about doing this, one being the one-sided difference, and the other the two-sided difference, which is more accurate. The intuition behind gradient cheking is, if one could imagine the cost as a function of parameter theta, and take derivative (slope of the line), then he could calculate theta - epsilon and theta + epsilon. Then running a straight line between those 2 points on the plot, would return a slope that is pretty much equal to the original. Hence one could check whether the derivaties from the backpropagation are similar to the values returned from the gradient checking.
+
+Having this said, one should rather stick to using the epsilon technique for neural networks, because there is not a single reason why this would be more effective than Option 3 here. Incorrect.
 
 ![Choosing_The_Number_Of_Clusters](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Choosing_The_Number_Of_Clusters.png)
