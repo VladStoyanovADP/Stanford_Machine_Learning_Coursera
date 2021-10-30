@@ -106,6 +106,20 @@ Option 4: Following the logic of Option 3, this is incorrect because 1 is not bi
 
 ![Choosing_the_Number_of_Principal_Components](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Choosing_the_Number_of_Principal_Components.png)
 
-Option 1: 
+Option 1: This is incorrect because x(i) by itself is not a vector. Incorrect.
+
+Option 2: This is incorrect because xapprox(1) by itself is not a vector. Incorrect.
+
+Option 3: This is correct, because this formula calculates the squared projection error between the x(i) and xapprox(i). Correct.
+
+Option 4: This is incorrect, because it's the incorrect way of calulcating the squared projection error. Incorrect.
 
 ![Advice_For_Applying_PCA](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Advice_For_Applying_PCA.png)
+
+Option 1: PCA helps compress data so it takes less computer memory / disk space, by reducing the dimensionality (the number of features). Correct.
+
+Option 2: PCA can speed up a learning algorithm by reducing the dimensionality (the number of features), so it's less computationally expensive. Correct.
+
+Option 3: PCA could be used to prevent overfitting, although regularization is a better option for that goal. Incorrect.
+
+Option 4: PCA can help visualize high-dimensional data, if we shrink the features to 2 or 3. Correct.
