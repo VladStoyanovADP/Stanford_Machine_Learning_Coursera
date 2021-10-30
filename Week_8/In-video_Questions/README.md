@@ -56,9 +56,27 @@ Option 4: This, is subjective answer and following it's own logic, is correct, b
 
 ![Motivation_I_Data_Compression](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_I_Data_Compression.png)
 
+Option 1: The features are vectors containing m values = number of samples in the dataset. For examples if there are 5000 samples, then x(1) would be a vector with 5000 values. n denotes the dimensionality = number of features. So if we apply dimensionality reduction, we will get out vectors containing just the same amount of samples, but with less features. So the last z sample is not to be denoted by z(k), but - z(n). Incorrect.
+
+Option 2: Following the logic of option 1, this is incorrect as well. What makes it even more incorrect is that k will never be bigger than n, if one applies dimensionality reduction. Incorrect
+
+Option 3: Following the logic of option 1, this is the correct answer. We see that the samples are denoted properly, and the dimensions, when compressed, are always lower than the original number of features. Correct.
+
+Option 4: Following the logic of option 1, we see that the samples are denoted correctly, but the dimensions will never be more after dimensionality compression. Incorrect.
+
 ![Motivation_II_Visualization](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_II_Visualization.png)
 
+Option 1: When applying dimensionality compression, the dimensionality of the new set of features will never be more than the number of features in the original set. Incorrect.
+
+Option 2: When applying dimensionality compression, the dimensionality of the new set of features will always be equal to or less than the number of features in the original set. Correct.
+
+Option 3: To visualize, one would need the dimensions to be 2 or 3 ( so that the relationship between the features can be plotted on a 2D or a 3D plot ). This option, makes no logic though, because more than 4 dimensions will not be easy to visualize at all. We'd need a setting where k =< 3 (and not k >= 4). Incorrect.
+
+Option 4: Following the logic of Option 3, then this is the correct answer. Correct.
+
 ![Principal_Component_Analysis_Problem_Formulation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Problem_Formulation.png)
+
+Option 1: 
 
 ![Principal_Component_Analysis_Algorithm](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Algorithm.png)
 
