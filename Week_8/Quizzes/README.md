@@ -52,11 +52,23 @@ Option 4: By randomly initializing many times, one could improve the chances tha
 
 ![Quiz_Principal_Component_Analysis_1_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_1.png)
 
+Option 1: To denote the eigenvectors with accuracy, one has to run a PCA algorithm. From the choices given though, one can also conclude that the pattern in the relationship between x1 and x2, is that as x1 rises, so does x2 and vice versa. With that being said, the eigenvector would be parallel to the pattern of samples, rather than perpendicular to it. Correct.
+
 ![Quiz_Principal_Component_Analysis_1_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_2.png)
+
+Option 2: Following the logic of option 1, this is also correct. U and -U are equally valid choices, so the negative value of u1 is also correct.
 
 ![Quiz_Principal_Component_Analysis_1_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_3.png)
 
+Option 3: Following the logic of option 1, this is also incorrect. One does not need to run a PCA algorithm to conclude that eigenvectors which run along the growth pattern of the dataset will do a better job in minimizing the squared error. Incorrect.
+
 ![Quiz_Principal_Component_Analysis_1_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_4.png)
+
+Option 4: Following the logic of option 1, this is also incorrect. One does not need to run a PCA algorithm to conclude that eigenvectors which run along the growth pattern of the dataset will do a better job in minimizing the squared error. Incorrect.
+
+![Quiz_Principal_Component_Analysis_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_2.png)
+
+Option 1: 
 
 ![Quiz_Principal_Component_Analysis_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_4.png)
 
