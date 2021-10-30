@@ -86,10 +86,26 @@ Option 4: This would be a good projection, because this means that u(1) would be
 
 ![Principal_Component_Analysis_Algorithm](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Algorithm.png)
 
-Option 1: If z is a vector u iss
+Option 1: u is one of the output matrices that one will get when using the singular value decomposition function (or eig) in matlab / octave. It will contain the vectors onto which to project the samples, in order to compress the data. So, if z is a vector (that will contain the vectors that one would need, to project the data onto), u is a n x n matrix (that contains all the vectors, that one could use to project the data onto, for each feature) an x is a vector n x 1 (containing the feature vectors, filled with samples), then u'x = z (' in matlab is the transpose), where z will n x 1, containing all the vectors for projection. Now to extract the jth column from u, one would need to specify that in u itself, and still multiply by the whole vector x (so as to get all the samples). Having this said, this option does not denote j at all in the right hand side of the equation, making it incorrect. Incorrect. 
+
+Option 2: The result from this computation would be highly skewed, because one will take into consideration only the examples from the jth feature (instead of all the features). Incorrect.
+
+Option 3: The result from this computation would be highly skewed, because one will take into consideration only the examples from the kth feature/s (instead of all the features), where k is the number of clusters. Incorrect.
+
+Option 4: Following the logic from option 1, this is the correct answer. Correct.
 
 ![Reconstruction_From_Compressed_Representation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Reconstruction_From_Compressed_Representation.png)
 
+Option 1: If the data is not reduced at all, then Ureduce = U, which is an n x n matrix, as returned by the svd (or eig) function in Matlab / Octave. Correct.
+
+Option 2: If the data is not reduced at all, then the squared projection error = 0, which means that xapprox = x. Correct.
+
+Option 3: If the data is not reduced at all, then the formula specified in the question (computes the variance for number of principal components), will return 1, which corresponds to 100% variance ratained. Correct.
+
+Option 4: Following the logic of Option 3, this is incorrect because 1 is not bigger than 1. Incorrect.
+
 ![Choosing_the_Number_of_Principal_Components](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Choosing_the_Number_of_Principal_Components.png)
+
+Option 1: 
 
 ![Advice_For_Applying_PCA](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Advice_For_Applying_PCA.png)
