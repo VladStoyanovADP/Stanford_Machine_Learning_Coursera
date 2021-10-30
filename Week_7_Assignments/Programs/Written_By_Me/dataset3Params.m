@@ -30,8 +30,8 @@ for i = 1:size(vector, 2)                        % Loops 10 times, setting the p
     end
 end
 
-[~, i] = min(results(:,3));                      % Extracting the index, which corresponds to the row, in which the parameters minimize the cost function.
-C = results(i, 1);                               % Assign C to the C in the index at which the lowest cost is returned.
-sigma = results(i,2);                            % Assign sigma to the sigma in the index at which the lowest cost is returned.
+[~, v] = min(results(:,3));                      % Extracting the index, which corresponds to the row, in which the parameters minimize the cost function.
+C = results(v, 1);                               % Assign C to the C in the index at which the lowest cost is returned.
+sigma = results(v ,2);                            % Assign sigma to the sigma in the index at which the lowest cost is returned.
 
 end
