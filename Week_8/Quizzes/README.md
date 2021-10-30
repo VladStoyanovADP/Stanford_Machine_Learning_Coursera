@@ -48,4 +48,20 @@ Option 3: This would initialize the cluster centroids at (0, 0) on a 2D plot. No
 
 Option 4: By randomly initializing many times, one could improve the chances that the K-Means algorithm converges to a global, rather than, local optima. Correct.
 
+![Quiz_Principal_Component_Analysis_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1.png)
+
+![Quiz_Principal_Component_Analysis_1_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_1.png)
+
+![Quiz_Principal_Component_Analysis_1_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_2.png)
+
+![Quiz_Principal_Component_Analysis_1_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_3.png)
+
+![Quiz_Principal_Component_Analysis_1_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_4.png)
+
+![Quiz_Principal_Component_Analysis_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_4.png)
+
+![Quiz_Principal_Component_Analysis_4_diff](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_4_diff.png)
+
+![Quiz_Principal_Component_Analysis_5](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_5.png)
+
 
