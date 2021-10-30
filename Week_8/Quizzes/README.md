@@ -62,18 +62,48 @@ Option 2: Following the logic of option 1, this is also correct. U and -U are eq
 
 Option 3: Following the logic of option 1, this is also incorrect. One does not need to run a PCA algorithm to conclude that eigenvectors which run along the growth pattern of the dataset will do a better job in minimizing the squared error. Incorrect.
 
-![Quiz_Principal_Component_Analysis_1_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_4.png)
+![Quiz_Principal_Component_Analysis_1_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_4.png)
 
 Option 4: Following the logic of option 1, this is also incorrect. One does not need to run a PCA algorithm to conclude that eigenvectors which run along the growth pattern of the dataset will do a better job in minimizing the squared error. Incorrect.
 
 ![Quiz_Principal_Component_Analysis_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_2.png)
 
-Option 1: 
+Option 1: One would choose k so that the average squared projection error divided by the total variation in the data equals less than 0.1. In that case 99% variance is retained. One would choose the minimal amount of principal components to simplify the data, and potentially even succeed to visualize it on a 2d or 3d plane. Correct.
+
+Option 2: Using the elbow method would not help in choosing k here, because one would not be looking to minimize cost, but to simplify data by shrinking the dimensions n. Incorrect.
+
+Option 3: Choosing a big value for k would not be logical at all, because one would want to minimize the number of dimensions, rather than maximize it, when using a PCA algorithm. Incorrect.
+
+Option 4: Choosing k with a relationship to what m, is not a good idea if one wants to shrink the dimensions. Generally m doesnt play in role in choosing k. M is used in calculating the average squared projection error, and the total variation in the data - both computations are needed to get a feedback which would be used by the developer to either keep k as it is, or change it. Incorrect.
 
 ![Quiz_Principal_Component_Analysis_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_4.png)
 
+Option 1: Principal Component Analysis serves to simplify the data, by lowering the dimensions, while keeping the variance 99% or more. Following this logic, then this option is correct.
+
+Option 2: SVD does not handle feature scaling, and one has to scale the features of the raw data, before processing it and applying PCA. Incorrect.
+
+Option 3: Following the logic of option 2, this is correct.
+
+Option 4: PCA can be used to reduce as many dimensions as the developer wants. The convention, though, is that one should not pick a dimension k, which results in a retained variance lower than 99%. Incorrect.
+
 ![Quiz_Principal_Component_Analysis_4_diff](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_4_diff.png)
 
+Option 1: The formula to reconstruct an approximation x is the following: Xapprox = Ureduced * Z, where Ureduced is a n x k matrix, and Z is a k x 1 vector. Incorrect.
+
+Option 2: There's no local or global optima when performing PCA, because the algorithm is not iterative (unless one chooses to do so with for loops, but still, that's not a learning algorithm). Incorrect.
+
+Option 3: Mean normalization and feature scaling are a standart process of preprocessing steps one must take before using PCA, to avoid undersirable results. Correct.
+
+Option 4: PCA simplifies the data, by shrinking the dimensions. As the option specifies n = k is senseless, and n < k is simply illogical.
+
 ![Quiz_Principal_Component_Analysis_5](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_5.png)
+
+Option 1: PCA helps the developer visualize his data, if he can shrink the dimensions to 2d or 3d, while retaining at least 99% variance. Correct.
+
+Option 2: PCA helps the developer shrink the size of his data, so that it doesnt take as much space, by lowering the dimensions (and still retaining at least 99% variance). Correct.
+
+Option 3: PCA is used to shrink the features (dimensions) and not increase them. Incorrect.
+
+Option 4: While PCA can help prevent overfitting, there is a much better practice for doing that - regularization.
 
 
