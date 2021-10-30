@@ -53,3 +53,17 @@ Option 2: One can't conclude what "correct" is, because it is subjective when us
 Option 3: This is the correct answer, because following the logic in Option 1, the more clusters you have the lower the cost you will have. So the only thing that could've prevented the cost function returning a lower cost when using 5 clusters, than using 3, is getting stuck in a local optima. Correct.
 
 Option 4: This, is subjective answer and following it's own logic, is correct, because running the algorithm with 3 clusters will eventually give a higher cost than the run with 5 clusters. Although given the information in the question, one would reach a different conclusion, taking the big picture in perspective. Incorrect.
+
+![Motivation_I_Data_Compression](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_I_Data_Compression.png)
+
+![Motivation_II_Data_Compression](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_II_Data_Compression.png)
+
+![Principal_Component_Analysis_Problem_Formulation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Problem_Formulation.png)
+
+![Principal_Component_Analysis_Algorithm](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Algorithm.png)
+
+![Reconstruction_From_Compressed_Representation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Reconstruction_From_Compressed_Representation.png)
+
+![Choosing_the_Number_of_Principal_Components](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Choosing_the_Number_of_Principal_Components.png)
+
+![Advice_For_Applying_PCA](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Advice_For_Applying_PCA.png)
