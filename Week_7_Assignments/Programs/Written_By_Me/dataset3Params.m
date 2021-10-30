@@ -32,6 +32,6 @@ end
 
 [~, v] = min(results(:,3));                      % Extracting the index, which corresponds to the row, in which the parameters minimize the cost function.
 C = results(v, 1);                               % Assign C to the C in the index at which the lowest cost is returned.
-sigma = results(v ,2);                            % Assign sigma to the sigma in the index at which the lowest cost is returned.
+sigma = results(v ,2);                           % Assign sigma to the sigma in the index at which the lowest cost is returned.
 
 end
