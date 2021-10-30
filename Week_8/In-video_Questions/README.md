@@ -76,9 +76,17 @@ Option 4: Following the logic of Option 3, then this is the correct answer. Corr
 
 ![Principal_Component_Analysis_Problem_Formulation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Problem_Formulation.png)
 
-Option 1: 
+Option 1: Projecting data on a vector when doing data compression using PCA, one would seek to minimize the mean distance between the samples and the vector, so as to minimize data lost. [1, 0] means that one would be projecting the data, onto a vector u(1), lying flat on the x axis in perpendicular to the y axis, with an end point (1, 0). That's not a good projection, considering the data. Incorrect.
+
+Option 2: [0, 1] means that one would be projecting the data, onto a vector u(1), lying flat on the y axis, perpendicular to the x axis, with an end point (0, 1). That's not a good projection, considering the data. Incorrect.
+
+Option 3: This would be a good projection, if the data was reversed, so that it mainly resides in the first and third quadrant. Incorrect.
+
+Option 4: This would be a good projection, because this means that u(1) would be a vector lying in the second quadrant, that's fitting the data just right (still, one would nee to compute the squared error, to ensure that this is the best option overall, but it's the best from the options specified). Correct.
 
 ![Principal_Component_Analysis_Algorithm](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Algorithm.png)
+
+Option 1: If z is a vector u iss
 
 ![Reconstruction_From_Compressed_Representation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Reconstruction_From_Compressed_Representation.png)
 
