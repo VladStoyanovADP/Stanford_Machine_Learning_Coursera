@@ -96,7 +96,7 @@ Option 4: Following the logic from option 1, this is the correct answer. Correct
 
 ![Reconstruction_From_Compressed_Representation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Reconstruction_From_Compressed_Representation.png)
 
-Option 1: If the data is not reduced at all, then Ureduce = U, which is an n x n matrix, as returned by the svd (or eig) function in Matlab / Octave. Correct.
+Option 1: If the data is not reduced at all, then Ureduce = U, which is an n x n matrix (containing the principal components), as returned by the svd (or eig) function in Matlab / Octave. Correct.
 
 Option 2: If the data is not reduced at all, then the squared projection error = 0, which means that xapprox = x. Correct.
 
