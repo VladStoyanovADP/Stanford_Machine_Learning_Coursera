@@ -56,7 +56,7 @@ Option 4: This, is subjective answer and following it's own logic, is correct, b
 
 ![Motivation_I_Data_Compression](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_I_Data_Compression.png)
 
-![Motivation_II_Data_Compression](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_II_Data_Compression.png)
+![Motivation_II_Visualization](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Motivation_II_Visualization.png)
 
 ![Principal_Component_Analysis_Problem_Formulation](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/In-video_Questions/Principal_Component_Analysis_Problem_Formulation.png)
 
