@@ -1,6 +1,6 @@
 ![Anomaly_Detection_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Anomaly_Detection_1.png)
 
-Option 1: If epsilon marks the boundary where the algorithm distinguishes anomalies from non-anomalies, and when p(x) =< epsilon marks it as an anomaly, then p(x) > epsilon is a non-anomaly. In this problem, the algorithm is flagging too many examples as anomalies, thus, increasing the parameter epsilon, will widen the boundary, resulting in even more flagging of anomalies as non-anomalies. Incorrect.
+Option 1: If epsilon marks the boundary where the algorithm distinguishes anomalies from non-anomalies, and when the density estimation p(x) =< epsilon marks it as an anomaly, then the density estimation p(x) > epsilon is a non-anomaly. In this problem, the algorithm is flagging too many examples as anomalies, thus, increasing the parameter epsilon, will widen the boundary, resulting in even more flagging of anomalies as non-anomalies. Incorrect.
 
 Option 2: Following the logic on option 1, this is the correct answer. Decreasing the parameter epsilon will tighten the boundary and make sure that any sample outside this boundary get flagged as an anomaly. Correct.
 
@@ -66,10 +66,10 @@ Option 4: Following the logic on option 3, this is the incorrect answer. Incorre
 
 ![Anomaly_Detection_8](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Anomaly_Detection_8.png)
 
-Option 1: Theoretically, the only difference between the original Gaussian and the multivariate gaussian is the values at the off diagonals. At the original, it's all zeros, while at the multivariate the can take any value, giving the developer more flexibility in designing the right model. Correct
+Option 1: Theoretically, the only difference between the original Gaussian and the multivariate gaussian is the values at the off diagonals. At the original, it's all zeros, while at the multivariate the can take any value, giving the developer more flexibility in designing the right density estimation model p(x). Correct.
 
 Option 2: The covariance matrix would be non-invertalbe if m =< n, and for optimal quality of the result, it should be m =< 10n. Incorrect.
 
-Option 3: Thanks to the magic of covariance matrices and matrix algebra, Multivariate Gaussian model automatically captures correlations between features, whereas one has to manually set them when using the original model. Correct.
+Option 3: Thanks to the magic of covariance matrices and matrix algebra, Multivariate Gaussian density estiomation model p(x) automatically captures correlations between features, whereas one has to manually set them when using the original density estimation model p(x). Correct.
 
-Option 4: The reason why the multiavariate gaussian model is computationally expensive is because, computing the covariance matrix, involves transposing, often huge, matrix - the differnce between all the samples in the data and the mean of the gaussian. Correct.
+Option 4: The reason why the multiavariate gaussian density estimaton model p(x) is computationally expensive is because, computing the covariance matrix, involves transposing, often huge, matrix - the differnce between all the samples in the data and the mean of the gaussian. Correct.
