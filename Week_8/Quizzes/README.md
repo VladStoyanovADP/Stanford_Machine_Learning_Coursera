@@ -52,7 +52,7 @@ Option 4: By randomly initializing many times, one could improve the chances tha
 
 ![Quiz_Principal_Component_Analysis_1_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_1.png)
 
-Option 1: To denote the eigenvectors with accuracy, one has to run a PCA algorithm. From the choices given though, one can also conclude that the pattern in the relationship between x1 and x2, is that as x1 rises, so does x2 and vice versa. With that being said, the eigenvector would be parallel to the pattern of samples, rather than perpendicular to it. Correct.
+Option 1: To denote the eigenvectors with accuracy, one has to run a PCA algorithm. From the choices given though, one can also conclude that x1 and x2 tend to grow linearly with each other. With that being said, the eigenvector would be parallel to that pattern, rather than perpendicular to it (note, that the eigenvectors are such that minimize the distance of each example projected onto the eigenvector). Correct.
 
 ![Quiz_Principal_Component_Analysis_1_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_8/Quizzes/Quiz_Principal_Component_Analysis_1_2.png)
 
