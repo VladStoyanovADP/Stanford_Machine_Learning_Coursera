@@ -38,11 +38,11 @@ Option 4: This doesn't make much sense, because CV set and test set are identica
 
 Option 1: Anomaly detection algorithm should be good at distinguishing anomalous examples from a very small training dataset of anomalous examples in the dataset, and also be able to distinguish anomalous samples it has never seen before in the training set. On the other hand, supervised learning algorithms would be working with huge number of positive and negative examples, huge enough so that the algorithm has a good sense of what positive examples will look like, increasing the probability that future positive examples will be as similar as possible to the ones in the training set. Hence, this option would fall under the category of anomaly detection algorithm. Correct.
 
-Option 2: Following the logic of option 1, this is inccorect. Incorrect.
+Option 2: Following the logic of option 1, this is incorrect.
 
-Option 3: Following the logic of option 1, this is inccorect. Correct.
+Option 3: Following the logic of option 1, this is the correct one.
 
-Option 4: Following the logic of option 1, this is inccorect. Incorrect.
+Option 4: Following the logic of option 1, this is incorrect.
 
 ![Anomaly_Detection_6](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Anomaly_Detection_6.png)
 
