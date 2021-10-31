@@ -73,3 +73,73 @@ Option 2: The covariance matrix would be non-invertalbe if m =< n, and for optim
 Option 3: Thanks to the magic of covariance matrices and matrix algebra, Multivariate Gaussian density estiomation model p(x) automatically captures correlations between features, whereas one has to manually set them when using the original density estimation model p(x). Correct.
 
 Option 4: The reason why the multiavariate gaussian density estimaton model p(x) is computationally expensive is because, computing the covariance matrix, involves transposing, often huge, matrix - the differnce between all the samples in the data and the mean of the gaussian. Correct.
+
+![Recommender_Systems_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_1.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
+
+![Recommender_Systems_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_2.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
+
+![Recommender_Systems_3_1](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_3_1.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
+
+![Recommender_Systems_3_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_3_2.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
+
+![Recommender_Systems_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_4.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
+
+![Recommender_Systems_5](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_5.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
+
+![Recommender_Systems_6](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_9/In-Video_Questions/Recommender_Systems_6.png)
+
+Option 1:
+
+Option 2:
+
+Option 3:
+
+Option 4:
