@@ -8,8 +8,8 @@ h = sigmoid(X * theta);                                                         
 
 J =  (1 / m) * (- y' * log(h) - (1 - y)' * log(1 - h)) + (lambda / (2 * m)) * sum(theta(2:n).^2); %Calculates cost (with regularized theta values, except theta(1))
 
-grad1 = (1 / m) * (h - y)' * X(m_vect, 1);                                  %Calculates gradients. We skip theta(1), because we add it artificially
-grad2 = ((1 / m) * (h - y)' * X(m_vect, 2:n)) + (lambda / m) * theta(2:n)'; %Calculates gradients. We skip theta(1), because we add it artificially
+grad1 = (1 / m) * (h - y)' * X(m_vect, 1);                                  %Calculates gradients. The bias unit is skipped.
+grad2 = ((1 / m) * (h - y)' * X(m_vect, 2:n)) + (lambda / m) * theta(2:n)'; %Calculates gradients. The bias unit is skipped.
 grad = [grad1(:, 1), grad2];                                                %Adds the two matrices together
 
 grad = grad(:);                                                             %This line guarantees that the grad value is returned as a column vector.                                     
