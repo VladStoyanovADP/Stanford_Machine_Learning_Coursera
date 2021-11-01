@@ -10,16 +10,6 @@ Option 4: When there’s a high variance problem, more data helps fix that. Corr
 
 ![Large_Scale_ML_2](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_2.png)
 
-Option 1: Because the online algorithm is running forever and considers one sample at a time, then any change in customer behaviours will be reflected on time, when optimizing the theta parameters. Correct.
-
-Option 2: Just the fact that the gradient considered is only from 1 sample, doesn't mean that learning rate alpha is not picked. Incorrect.
-
-Option 3: Following the logic on option 1, this is correct as well. Correct.
-
-Option 4: Just as any other algorithm, one would need good features, so that the algorithm works as intended and does the job it was created for efficiently. Incorrect.
-
-![Large_Scale_ML_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_3.png)
-
 Option 1: Stochastic gradient descent can be way faster than batch gradient descent, because it is not considering all the samples at once, but one at a time, when updating theta parameters. Usually 1-10 runs of stochastic gradient descent will be enough in finding the global optimum. Stochastic gradient descent is preferred when there’s a humongous amount of data (in the span of millions). Correct. 
 
 Option 2: The cost should go down in case batch gradient descent is implemented properly on every iteration, because it’s considering all the samples and the step it is taking is guaranteed to find better suited parameters. On the other hand stochastic gradient descent might stumble upon a sample which trains worse theta parameters, but that’s being unlucky, and in the long-term will reach the global optimum. Correct. 
@@ -28,7 +18,9 @@ Option 3: Stochastic gradient descent can be used in any algorithm where theta p
 
 Option 4: Shuffling the data ensures that any symmetry in ordering the data beforehand is broken, and this is important to ensure that stochastic gradient descent eventually finds the global optimum. Correct.
 
-![Large_Scale_ML_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_4.png)
+
+
+![Large_Scale_ML_3](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_3.png)
 
 Option 1: If b was 1, then that would be stochastic gradient descent. Incorrect.
 
@@ -38,7 +30,7 @@ Option 3: Following the logic of option 2, this is the correct answer.
 
 Option 4: Incorrect, as one would need to match with m and that's option 3. Incorrect.
 
-![Large_Scale_ML_5](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_5.png)
+![Large_Scale_ML_4](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_4.png)
 
 Option 1: Picking a small learning rate, will ensure that the algorithm finds the global optimum slower, because it’s more “cautious” in it’s considerations. The advantage to this is that the chance of diverging is lower. Incorrect. 
 
@@ -47,6 +39,16 @@ Option 2: Choosing a small parameter alpha is most surely to ensure in lower cos
 Option 3: Smaller learning rate means smaller oscillations that the algorithm will be taking, but larger will most likely make it diverge at a certain point. Incorrect. 
 
 Option 4: This is correct, and one other reason might be that the considered samples are too little, and one has “zoomed” in the plot too much to see the pattern. If one increases the samples considered, that would help him see a pattern in reducing the cost, if there is such, because it quite literally simulates zooming out of the graph. Correct.
+
+![Large_Scale_ML_5](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_5.png)
+
+Option 1: Because the online algorithm is running forever and considers one sample at a time, then any change in customer behaviours will be reflected on time, when optimizing the theta parameters. Correct.
+
+Option 2: Just the fact that the gradient considered is only from 1 sample, doesn't mean that learning rate alpha is not picked. Incorrect.
+
+Option 3: Following the logic on option 1, this is correct as well. Correct.
+
+Option 4: Just as any other algorithm, one would need good features, so that the algorithm works as intended and does the job it was created for efficiently. Incorrect.
 
 ![Large_Scale_ML_6](https://github.com/VladStoyanoff/Stanford_Machine_Learning_Coursera/blob/main/Week_10/In-video_Questions/Large_Scale_ML_6.png)
 
